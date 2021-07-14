@@ -1,0 +1,12 @@
+#region Interstitial callback handlers
+public void onInterstitialLoaded(bool isPrecache) { print("Interstitial loaded"); } // Вызывается, когда полноэкранная реклама загрузилась. Флаг precache указывает, является ли реклама прекешем.
+public void onInterstitialFailedToLoad() { print("Interstitial failed"); } // Вызывается, когда полноэкранная реклама не загрузилась
+public void onInterstitialShowFailed() { print ("Interstitial show failed"); } // Вызывается, когда полноэкранная реклама загрузилась, но не может быть показана (внутренние ошибки сети, настройки плейсментов или неверный креатив)
+public void onInterstitialShown() { print("Interstitial opened"); } // Вызывается после показа полноэкранной рекламы
+public void onInterstitialClosed() { print("Interstitial closed"); } // Вызывается при закрытии полноэкранной рекламы
+public void onInterstitialClicked() { print("Interstitial clicked"); } // Вызывается при клике на полноэкранную рекламу
+public void onInterstitialExpired() { print("Interstitial expired"); } // Вызывается, когда полноэкранная реклама больше не доступна.
+#endregion
+
+    implementation 'com.android.support:multidex:1.0.3'
+

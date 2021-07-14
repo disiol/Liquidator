@@ -1,0 +1,9 @@
+Key,English,Ukrainian,Russian
+Settings.Title,Settings,Налаштування,Настройки
+Settings.Difficulty,Difficulty,Складність,Сложность
+Settings.Difficulty.Easy,Easy,Легко,Легко
+Settings.Difficulty.Normal,Medium,Середнє,Средне
+Settings.Difficulty.Hard,Hard,Важко,Сложно
+Settings.SfxVolume,Effects volume,Гучність звуку,Громкость звуков
+Settings.MusicVolume,Music volume,Гучність музики,Громкость музыки
+Settings.PlayTime,Play time: {0:N1} h.,Час у грі: {0:N1} г.,Время в игре: {0:N1} ч.
